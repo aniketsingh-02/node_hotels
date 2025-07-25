@@ -34,7 +34,7 @@ router.get('/', async (req,res) => {
 })
 
 
-router.get('/:workType', async(req,res) => {
+  router.get('/:workType', async(req,res) => {
   try{
     const workType = req.params.workType;  //Extract the workType from the url parameter
   if(['chef','manager','waiter'].includes(workType)){ //if(workType == 'chef' || workType == 'chef' || workType == 'chef')
