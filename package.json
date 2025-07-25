@@ -4,6 +4,7 @@
   "description": "its a node.js tutorial by aniket ",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "aniket",
