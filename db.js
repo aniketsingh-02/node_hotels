@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 //setup mongoDB connection
 
-mongoose.connect(process.env.MONGODB_URL || process.env.MONGODB_URL_LOCAL);
-
+//mongoose.connect (process.env.MONGODB_URL_LOCAL); //Replace 'mydatabase' with your database name
+mongoose.connect(process.env.MONGODB_URL);
 
 const db = mongoose.connection;
 
